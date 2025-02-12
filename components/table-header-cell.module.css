@@ -1,0 +1,18 @@
+.checkbox {
+  margin: 0;
+  width: 20px;
+}
+.tableHeaderCell {
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--text-xs-medium-size);
+  color: var(--color-slategray);
+  font-family: var(--text-xs-medium);
+}

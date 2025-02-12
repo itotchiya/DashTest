@@ -1,0 +1,58 @@
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-md-regular-size);
+  line-height: 24px;
+  color: var(--colors-text-text-tertiary-600);
+}
+.textAndSupportingText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--spacing-md);
+}
+.minusCircleIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--spacing-xxs) 0px 0px;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--spacing-3xl);
+}
+.faqItem {
+  flex: 1;
+  border-top: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-3xl) 0px 0px;
+  min-width: 320px;
+  text-align: left;
+  font-size: var(--text-lg-regular-size);
+  color: var(--color-gray-100);
+  font-family: var(--text-xs-medium);
+}

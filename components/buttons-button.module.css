@@ -1,0 +1,44 @@
+.placeholderIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  font-size: var(--text-sm-semibold-size);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--text-xs-medium);
+  color: var(--color-white);
+  text-align: left;
+}
+.textPadding {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--spacing-xxs);
+}
+.placeholderIcon1 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonsbutton {
+  cursor: pointer;
+  border: 2px solid var(--color-gray-200);
+  padding: var(--padding-3xs) var(--padding-sm);
+  background-color: var(--color-forestgreen-100);
+  box-shadow: var(--shadows-shadow-xs-skeuomorphic);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+}
